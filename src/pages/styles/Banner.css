@@ -1,0 +1,18 @@
+.pokedex__header {
+  width: 100%;
+  background-color: #cc0000;
+  padding-top: 40px;
+}
+.pokedex__header::after {
+  content: " ";
+  background-color: #0e0e0e;
+  width: 100%;
+  position: absolute;
+  height: 40px;
+}
+.pokedex__h1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  max-width: 350px;
+}
