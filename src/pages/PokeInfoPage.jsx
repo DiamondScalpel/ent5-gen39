@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import useFetch from "../hooks/useFetch";
 import "./styles/PokeInfoPage.css";
-import Banner from "./Banner";
+import Header from '../components/shared/Header';
 
 export default () => {
   const [pokemon, getPokemon] = useFetch();
@@ -16,9 +16,7 @@ export default () => {
 
   return (
     <>
-      <header>
-        <Banner/>
-        </header>
+      <Header top={'90%'} left={'90%'} />
       <main className="main__container">
         <div className="container">
           <figure
