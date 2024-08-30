@@ -70,7 +70,7 @@ const Pokedex = () => {
 			<section className="pokedex__section">
 				<h2 className="pokedex__title">
 					<span>Welcome {trainer},</span> here you can find your favorite
-					pokemon
+					pokemon!
 				</h2>
 				<div>
 					<form className="pokedex__form" onSubmit={handleSubmit}>
